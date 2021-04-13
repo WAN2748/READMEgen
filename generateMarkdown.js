@@ -22,8 +22,6 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 `;
-this.data = data;
-this.tile = title;
 }
 
 module.exports = generateMarkdown;

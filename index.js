@@ -13,13 +13,20 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'head',
-            message: 'what is the title of the first heading?',
+            name: 'overView',
+            message: 'What is the over veiw of this project?',
         },
-       /* {
-            type: 'checkbox';
+       {
+            type: 'input',
+            name: 'challenges',
+            message: 'What are some challenges you faced this project?'
 
-        }*/
+        },
+        {
+            type: 'input',
+            name: 'resorces',
+            message: 'What are some sorces that you used for help?'
+        },
     
     ]);
 };
